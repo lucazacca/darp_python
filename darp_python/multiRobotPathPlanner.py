@@ -229,6 +229,9 @@ class MultiRobotPathPlanner(DARP):
     def returnPathRobot(self, robotIndex):
         return self.best_case.paths[robotIndex]
 
+    def returnDARPsuccess(self):
+        return self.DARP_success
+    
 # if __name__ == '__main__':
 #     argparser = argparse.ArgumentParser(
 #         description=__doc__)
