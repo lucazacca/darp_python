@@ -1,13 +1,13 @@
 import pickle
 
-from darp.darp import DARP
+from darp_python.darp.darp import DARP
 import numpy as np
-from kruskal.kruskal import Kruskal
-from calculate_trajectories.CalculateTrajectories import CalculateTrajectories
-from visualization.Visualization import visualize_paths
+from darp_python.kruskal.kruskal import Kruskal
+from darp_python.calculate_trajectories.CalculateTrajectories import CalculateTrajectories
+from darp_python.visualization.Visualization import visualize_paths
 import sys
 import argparse
-from turns.turns import turns
+from darp_python.turns.turns import turns
 from PIL import Image
 import time
 

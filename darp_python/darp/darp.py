@@ -1,7 +1,7 @@
 import numpy as np
 import sys
 import cv2
-from visualization.Visualization import darp_area_visualization
+from darp_python.visualization.Visualization import darp_area_visualization
 import time
 import random
 import os

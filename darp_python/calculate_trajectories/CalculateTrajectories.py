@@ -1,5 +1,5 @@
 import numpy as np
-from edges.Edges import Edge, Graph
+from darp_python.edges.Edges import Edge, Graph
 import sys
 
 
