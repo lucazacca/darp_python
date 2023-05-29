@@ -89,8 +89,8 @@ class DARP:
                  randomLevel=0.0001, dcells=2,
                  importance=False):
 
-        self.rows = nx
-        self.cols = ny
+        self.rows = ny
+        self.cols = nx
         self.initial_positions, self.obstacles_positions, self.portions = self.sanity_check(given_initial_positions, given_portions, obstacles_positions, notEqualPortions)
 
         self.visualization = visualization
